@@ -8,12 +8,12 @@ using System.Threading;
 
 public class WebDriverFactory
 {
-    private static WebDriverFactory instance;
+    private static IWebDriver instance;
     private static readonly object lockObject = new object();
 
     private WebDriverFactory() { }
 
-    public static WebDriverFactory Instance
+    public static IWebDriver Instance
     {
         get
         {
@@ -23,7 +23,7 @@ public class WebDriverFactory
                 {
                     if (instance == null)
                     {
-                        instance = new WebDriverFactory();
+                        instance = CreateWebDriver(BrowserType.Chrome);
                     }
                 }
             }
@@ -31,7 +31,7 @@ public class WebDriverFactory
         }
     }
 
-    public IWebDriver CreateWebDriver(
+    private static IWebDriver CreateWebDriver(
         BrowserType browserType,
         DriverOptions driverOptions = null,
         string executablePath = null,

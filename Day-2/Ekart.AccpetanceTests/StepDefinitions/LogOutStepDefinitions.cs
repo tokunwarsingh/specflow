@@ -9,32 +9,14 @@ using OpenQA.Selenium.Support.UI;
 namespace ECart.AccpetanceTests.StepDefinitions
 {
     [Binding]
-    public class LogOutStepDefinitions 
+    public class LogOutStepDefinitions : BaseStepDefinition
         {
-        public IWebDriver driver;
-
-        [BeforeScenario]
-        public void BeforeScenario()
-        {
-            driver = WebDriverFactory.Instance.CreateWebDriver(BrowserType.Chrome);
-
-            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(1));
-            wait.IgnoreExceptionTypes(typeof(ElementNotSelectableException));
-        }
-
-        [AfterScenario]
-        public void AfterScenario()
-        {
-            if (driver != null)
-            {
-                driver.Quit();
-            }
-        }
+       
 
         [Given(@"I am logged into the website as ""([^""]*)""")]
         public void GivenIAmLoggedIntoTheWebsiteAs(string username)
         {
-            driver.Navigate().GoToUrl("https://www.saucedemo.com/");
+            driver.Navigate().GoToUrl("https://www.saucedemo.com");
             driver.FindElement(By.Id("user-name")).SendKeys(username);
             driver.FindElement(By.Id("password")).SendKeys("secret_sauce");
             driver.FindElement(By.XPath($"//input[@value='Login']")).Click();

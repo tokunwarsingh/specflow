@@ -8,30 +8,14 @@ using TechTalk.SpecFlow;
 namespace ECart.AccpetanceTests.StepDefinitions
 {
     [Binding]
-    public class LoginStepDefinitions 
+    public class LoginStepDefinitions :BaseStepDefinition
     {
-        public IWebDriver driver;
-
-        [BeforeScenario]
-        public void BeforeScenario()
-        {
-            driver = WebDriverFactory.Instance.CreateWebDriver(BrowserType.Chrome);
-
-        }
-
-        [AfterScenario]
-        public void AfterScenario()
-        {
-            if (driver != null)
-            {
-                driver.Quit();
-            }
-        }
+        
 
         [Given(@"I am on the SauceDemo website homepage")]
         public void GivenIAmOnTheSauceDemoWebsiteHomepage()
         {
-            driver.Navigate().GoToUrl("https://www.saucedemo.com/");
+            driver.Navigate().GoToUrl("https://www.saucedemo.com");
         }
 
         [When(@"I enter the username ""([^""]*)""")]
@@ -69,4 +53,5 @@ namespace ECart.AccpetanceTests.StepDefinitions
         }  
 
     }
+
 }

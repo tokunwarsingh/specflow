@@ -9,33 +9,15 @@ using NUnit.Framework;
 namespace ECart.AccpetanceTests.StepDefinitions
 {
     [Binding]
-    public class CartStepDefinitions
+    public class CartStepDefinitions : BaseStepDefinition
     {
-        public IWebDriver driver;
-
-        [BeforeScenario]
-        public void BeforeScenario()
-        {
-            driver = WebDriverFactory.Instance.CreateWebDriver(BrowserType.Chrome);
-            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(1));
-            wait.IgnoreExceptionTypes(typeof(ElementNotSelectableException));
-
-        }
-
-        [AfterScenario]
-        public void AfterScenario()
-        {
-            if (driver != null)
-            {
-                driver.Quit();
-            }
-        }
+       
         [When(@"I add the ""([^""]*)"" to the cart")]
         public void WhenIAddTheToTheCart(string itemName)
         {
             //button[@id='add-to-cart-sauce-labs-backpack']
-
-            driver.FindElement(By.XPath("//div[text()='{itemName}']/following-sibling::div/button")).Click();
+            var div =driver.FindElement(By.XPath($"//div[text()='{itemName}']"));
+            div.FindElement(By.XPath("//button[text()='Add to cart'")).Click();
         }
 
         [Then(@"I should see (.*) items in the shopping cart")]

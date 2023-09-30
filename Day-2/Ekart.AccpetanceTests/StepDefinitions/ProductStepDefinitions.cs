@@ -9,27 +9,9 @@ using TechTalk.SpecFlow;
 namespace ECart.AccpetanceTests.StepDefinitions
 {
     [Binding]
-    public class ProductStepDefinitions
+    public class ProductStepDefinitions:BaseStepDefinition
     {
-        public IWebDriver driver;
-
-        [BeforeScenario]
-        public void BeforeScenario()
-        {
-            driver = WebDriverFactory.Instance.CreateWebDriver(BrowserType.Chrome);
-            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(1));
-            wait.IgnoreExceptionTypes(typeof(ElementNotSelectableException));
-
-        }
-
-        [AfterScenario]
-        public void AfterScenario()
-        {
-            if (driver != null)
-            {
-                driver.Quit();
-            }
-        }
+        
         [Given(@"I am at product page")]
         public void GivenIAmAtProductPage()
         {
