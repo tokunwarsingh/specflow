@@ -14,10 +14,8 @@ namespace ECart.AccpetanceTests.StepDefinitions
        
         [When(@"I add the ""([^""]*)"" to the cart")]
         public void WhenIAddTheToTheCart(string itemName)
-        {
-            //button[@id='add-to-cart-sauce-labs-backpack']
-            var div =driver.FindElement(By.XPath($"//div[text()='{itemName}']"));
-            div.FindElement(By.XPath("//button[text()='Add to cart'")).Click();
+        {            
+            driver.FindElement(By.XPath($"//div[@class='inventory_item_name' and text()='{itemName}']/ancestor::div[@class='inventory_item']//button")).Click();           
         }
 
         [Then(@"I should see (.*) items in the shopping cart")]
