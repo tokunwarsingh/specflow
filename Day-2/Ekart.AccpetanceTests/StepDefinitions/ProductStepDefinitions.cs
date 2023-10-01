@@ -53,13 +53,16 @@ namespace ECart.AccpetanceTests.StepDefinitions
         [When(@"I select the ""([^""]*)"" option from the dropdown")]
         public void WhenISelectTheOptionFromTheDropdown(string p0)
         {
-            throw new PendingStepException();
+            driver.FindElement(By.XPath("//select[@class='product_sort_container']")).Click();
+            driver.FindElement(By.XPath("//option[@value='lohi']")).Click();
+
         }
 
         [Then(@"the products should be displayed in ascending price order")]
         public void ThenTheProductsShouldBeDisplayedInAscendingPriceOrder()
         {
-            throw new PendingStepException();
+            var p =driver.FindElement(By.XPath("(//div[@class='inventory_item_description'])[1]")).Text;
+            Assert.IsTrue(p.Contains("Sauce Labs Onesie"));
         }
     }
 }

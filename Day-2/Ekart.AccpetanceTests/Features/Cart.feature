@@ -14,9 +14,9 @@
   Scenario: Checking out from the cart
     Given I have added items to the cart
     When I click on the shopping cart icon
-    And I click the "Checkout" button
+    And I click on the "Checkout" button
     And I enter my personal information
     And I click the "Continue" button
     And I verify the order summary
-    And I click the "Finish" button
+    And I click on the "Finish" button
     Then I should see the order confirmation page

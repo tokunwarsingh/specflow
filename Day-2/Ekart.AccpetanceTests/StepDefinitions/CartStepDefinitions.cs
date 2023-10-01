@@ -31,9 +31,15 @@ namespace ECart.AccpetanceTests.StepDefinitions
         [Given(@"I have added items to the cart")]
         public void GivenIHaveAddedItemsToTheCart()
         {
-            driver.FindElement(By.XPath($"//div[text()='Sauce Labs Backpack']/following-sibling::div/button")).Click();
-
+            driver.FindElement(By.XPath($"//div[@class='inventory_item_name' and text()='Sauce Labs Backpack']/ancestor::div[@class='inventory_item']//button")).Click();
         }
+
+        [When(@"I click on the ""([^""]*)"" button")]
+        public void WhenIClickOnTheButton(string buttonText)
+        {
+            driver.FindElement(By.XPath($"//button[text()='{buttonText}']")).Click();
+        }
+
 
         [When(@"I click on the shopping cart icon")]
         public void WhenIClickOnTheShoppingCartIcon()
@@ -44,9 +50,10 @@ namespace ECart.AccpetanceTests.StepDefinitions
         [When(@"I enter my personal information")]
         public void WhenIEnterMyPersonalInformation()
         {
-            driver.FindElement(By.Id("fist-name")).SendKeys("first name");
-            driver.FindElement(By.Id("last-name")).SendKeys("last name");
-            driver.FindElement(By.Id("postal-code")).SendKeys("1234");
+            Thread.Sleep(1000);
+            driver.FindElement(By.XPath("//input[@id='first-name']")).SendKeys("first name");
+            driver.FindElement(By.XPath("//input[@id='last-name']")).SendKeys("last name");
+            driver.FindElement(By.XPath("//input[@id='postal-code']")).SendKeys("1234");
         }
 
         [When(@"I verify the order summary")]

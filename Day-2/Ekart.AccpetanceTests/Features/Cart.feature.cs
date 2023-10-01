@@ -166,7 +166,7 @@ namespace ECart.AccpetanceTests.Features
     testRunner.When("I click on the shopping cart icon", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 17
-    testRunner.And("I click the \"Checkout\" button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+    testRunner.And("I click on the \"Checkout\" button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 18
     testRunner.And("I enter my personal information", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -178,7 +178,7 @@ namespace ECart.AccpetanceTests.Features
     testRunner.And("I verify the order summary", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 21
-    testRunner.And("I click the \"Finish\" button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+    testRunner.And("I click on the \"Finish\" button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 22
     testRunner.Then("I should see the order confirmation page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
