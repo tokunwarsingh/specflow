@@ -131,14 +131,14 @@ namespace ECart.AccpetanceTests.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Verifying the locked_out_user login")]
+        [NUnit.Framework.DescriptionAttribute("Verifying the locked_out_user getting error while login")]
         [NUnit.Framework.CategoryAttribute("login")]
-        public virtual void VerifyingTheLocked_Out_UserLogin()
+        public virtual void VerifyingTheLocked_Out_UserGettingErrorWhileLogin()
         {
             string[] tagsOfScenario = new string[] {
                     "login"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verifying the locked_out_user login", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verifying the locked_out_user getting error while login", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 13
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
