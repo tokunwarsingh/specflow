@@ -172,7 +172,7 @@ namespace ECart.AccpetanceTests.Features
     testRunner.And("I enter my personal information", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 19
-    testRunner.And("I click the \"Continue\" button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+    testRunner.And("I click on the \"Continue\" button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 20
     testRunner.And("I verify the order summary", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

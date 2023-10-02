@@ -1,4 +1,5 @@
 
+using ECart.AccpetanceTests.PageObject;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -17,7 +18,7 @@ namespace ECart.AccpetanceTests.StepDefinitions
         {
         }
 
-
+        /*
         [When(@"I enter ""([^""]*)"" in the search bar")]
         public void WhenIEnterInTheSearchBar(string searchText)
         {
@@ -49,19 +50,23 @@ namespace ECart.AccpetanceTests.StepDefinitions
 
             Assert.IsTrue(productFound);
         }
-
+        */
         [When(@"I select the ""([^""]*)"" option from the dropdown")]
         public void WhenISelectTheOptionFromTheDropdown(string p0)
         {
-            driver.FindElement(By.XPath("//select[@class='product_sort_container']")).Click();
-            driver.FindElement(By.XPath("//option[@value='lohi']")).Click();
+            ProductPageObject productPage = new ProductPageObject(driver);
+            productPage.SelectLowtoHighFileter();
+           // driver.FindElement(By.XPath("//select[@class='product_sort_container']")).Click();
+            // driver.FindElement(By.XPath("//option[@value='lohi']")).Click();
 
         }
 
         [Then(@"the products should be displayed in ascending price order")]
         public void ThenTheProductsShouldBeDisplayedInAscendingPriceOrder()
         {
-            var p =driver.FindElement(By.XPath("(//div[@class='inventory_item_description'])[1]")).Text;
+            //var p =driver.FindElement(By.XPath("(//div[@class='inventory_item_description'])[1]")).Text;
+            ProductPageObject productPage = new ProductPageObject(driver);
+            var p = productPage.GetFirstProductNameAfterFiletrApply();
             Assert.IsTrue(p.Contains("Sauce Labs Onesie"));
         }
     }
