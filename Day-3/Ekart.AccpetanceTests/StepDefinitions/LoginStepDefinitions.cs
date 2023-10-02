@@ -1,3 +1,4 @@
+using ECart.AccpetanceTests.PageObject;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -21,19 +22,25 @@ namespace ECart.AccpetanceTests.StepDefinitions
         [When(@"I enter the username ""([^""]*)""")]
         public void WhenIEnterTheUsername(string username)
         {
-            driver.FindElement(By.Id("user-name")).SendKeys(username);
+            LoginPageObject loginpageObject = new LoginPageObject(driver);
+            loginpageObject.EnterUserId(username);
         }
 
         [When(@"I enter the password ""([^""]*)""")]
         public void WhenIEnterThePassword(string password)
         {
-            driver.FindElement(By.Id("password")).SendKeys(password);
+            LoginPageObject loginpageObject = new LoginPageObject(driver);
+            loginpageObject.EnterUserPaqssord(password);
+
+            //driver.FindElement(By.Id("password")).SendKeys(password);
         }
 
         [When(@"I click the ""([^""]*)"" button")]
         public void WhenIClickTheButton(string buttonText)
         {
-            driver.FindElement(By.XPath($"//input[@value='{buttonText}']")).Click();
+            LoginPageObject loginpageObject = new LoginPageObject(driver);
+            loginpageObject.ClickOnLoginButton();
+            //driver.FindElement(By.XPath($"//input[@value='{buttonText}']")).Click();
         }
 
         [Then(@"I should see the Products page")]
@@ -47,8 +54,9 @@ namespace ECart.AccpetanceTests.StepDefinitions
         public void ThenIShouldSeeAnErrorMessage()
         {
             // Add an assertion to verify the presence of an error message
-            IWebElement errorMessage = driver.FindElement(By.CssSelector(".error-message-container"));
-            Assert.IsTrue(errorMessage.Displayed);
+            //IWebElement errorMessage = driver.FindElement(By.CssSelector(".error-message-container"));
+            LoginPageObject loginpageObject = new LoginPageObject(driver);
+            Assert.IsTrue(loginpageObject.IsErrorMessageDisplay());
 
         }  
 

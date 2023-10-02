@@ -5862,11 +5862,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SourceCode\\code-yourtube\\specflow\\Day-2\\Ekart.AccpetanceTests\\ECart.AccpetanceTests.csproj",
+      "projectUniqueName": "D:\\SourceCode\\code-yourtube\\specflow\\Day-3\\Ekart.AccpetanceTests\\ECart.AccpetanceTests.csproj",
       "projectName": "ECart.AccpetanceTests",
-      "projectPath": "D:\\SourceCode\\code-yourtube\\specflow\\Day-2\\Ekart.AccpetanceTests\\ECart.AccpetanceTests.csproj",
+      "projectPath": "D:\\SourceCode\\code-yourtube\\specflow\\Day-3\\Ekart.AccpetanceTests\\ECart.AccpetanceTests.csproj",
       "packagesPath": "C:\\Users\\tokun\\.nuget\\packages\\",
-      "outputPath": "D:\\SourceCode\\code-yourtube\\specflow\\Day-2\\Ekart.AccpetanceTests\\obj\\",
+      "outputPath": "D:\\SourceCode\\code-yourtube\\specflow\\Day-3\\Ekart.AccpetanceTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

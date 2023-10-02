@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NJILSG9V6ro0j0jIsrTfDWJ4pad6ox0IoGEdPMR2m8MFPQPW2sOaDerFfYcyvwA1xj+hGP/elV6Cw7IQIH7S1w==",
+  "dgSpecHash": "1Hw+h7RjhZzWdYDQnNpbXN0dL9g4p+j2mRTuT+/G5bf9rW9nqEUx59PN/gopOlVcsIQf3sKYVF9IxEgcbAkV9Q==",
   "success": true,
-  "projectFilePath": "D:\\SourceCode\\code-yourtube\\specflow\\Day-2\\Ekart.AccpetanceTests\\ECart.AccpetanceTests.csproj",
+  "projectFilePath": "D:\\SourceCode\\code-yourtube\\specflow\\Day-3\\Ekart.AccpetanceTests\\ECart.AccpetanceTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tokun\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\tokun\\.nuget\\packages\\fluentassertions\\6.2.0\\fluentassertions.6.2.0.nupkg.sha512",
