@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SpecFlow Custom Report</title>
+    <style>
+        /* Add your custom CSS styles here */
+    </style>
+</head>
+<body>
+    <h1>SpecFlow Custom Report</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Scenario</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var feature in Model.FeatureStatus)
+            {
+                <tr>
+                    <td>@feature.FeatureName</td>
+                    <td>@feature.ScenarioName</td>
+                    <td>@feature.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
