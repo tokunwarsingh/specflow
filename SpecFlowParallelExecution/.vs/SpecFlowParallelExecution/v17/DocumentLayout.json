@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|d:\\youtube\\bdd\\installaion\\specflowparallelexecution\\stepdefinitions\\wikipediasearchstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|solutionrelative:stepdefinitions\\wikipediasearchstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|d:\\youtube\\bdd\\installaion\\specflowparallelexecution\\hooks1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|solutionrelative:hooks1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|d:\\youtube\\bdd\\installaion\\specflowparallelexecution\\implicitusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|solutionrelative:implicitusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|d:\\youtube\\bdd\\installaion\\specflowparallelexecution\\features\\wikipedia search1.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|solutionrelative:features\\wikipedia search1.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|d:\\youtube\\bdd\\installaion\\specflowparallelexecution\\features\\wikipedia search2.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|solutionrelative:features\\wikipedia search2.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|d:\\youtube\\bdd\\installaion\\specflowparallelexecution\\features\\wikipedia search.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|solutionrelative:features\\wikipedia search.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|d:\\youtube\\bdd\\installaion\\specflowparallelexecution\\features\\wikipedia search.feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74D7E82-7C1F-471E-AACF-EAB97EF89840}|SpecFlowParallelExecution.csproj|solutionrelative:features\\wikipedia search.feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WikipediaSearchStepDefinitions.cs",
+              "DocumentMoniker": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\StepDefinitions\\WikipediaSearchStepDefinitions.cs",
+              "RelativeDocumentMoniker": "StepDefinitions\\WikipediaSearchStepDefinitions.cs",
+              "ToolTip": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\StepDefinitions\\WikipediaSearchStepDefinitions.cs",
+              "RelativeToolTip": "StepDefinitions\\WikipediaSearchStepDefinitions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:33:03.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImplicitUsings.cs",
+              "DocumentMoniker": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\ImplicitUsings.cs",
+              "RelativeDocumentMoniker": "ImplicitUsings.cs",
+              "ToolTip": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\ImplicitUsings.cs",
+              "RelativeToolTip": "ImplicitUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:32:39.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hooks1.cs",
+              "DocumentMoniker": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\Hooks1.cs",
+              "RelativeDocumentMoniker": "Hooks1.cs",
+              "ToolTip": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\Hooks1.cs",
+              "RelativeToolTip": "Hooks1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAACWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:31:02.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Wikipedia Search2.feature",
+              "DocumentMoniker": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\Features\\Wikipedia Search2.feature",
+              "RelativeDocumentMoniker": "Features\\Wikipedia Search2.feature",
+              "ToolTip": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\Features\\Wikipedia Search2.feature",
+              "RelativeToolTip": "Features\\Wikipedia Search2.feature",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-04-09T12:29:03.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Wikipedia Search1.feature",
+              "DocumentMoniker": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\Features\\Wikipedia Search1.feature",
+              "RelativeDocumentMoniker": "Features\\Wikipedia Search1.feature",
+              "ToolTip": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\Features\\Wikipedia Search1.feature",
+              "RelativeToolTip": "Features\\Wikipedia Search1.feature",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-04-09T12:28:19.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Wikipedia Search.feature.cs",
+              "DocumentMoniker": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\Features\\Wikipedia Search.feature.cs",
+              "RelativeDocumentMoniker": "Features\\Wikipedia Search.feature.cs",
+              "ToolTip": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\Features\\Wikipedia Search.feature.cs",
+              "RelativeToolTip": "Features\\Wikipedia Search.feature.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:25:51.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Wikipedia Search.feature",
+              "DocumentMoniker": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\Features\\Wikipedia Search.feature",
+              "RelativeDocumentMoniker": "Features\\Wikipedia Search.feature",
+              "ToolTip": "D:\\Youtube\\BDD\\Installaion\\SpecFlowParallelExecution\\Features\\Wikipedia Search.feature",
+              "RelativeToolTip": "Features\\Wikipedia Search.feature",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-04-09T12:25:27.56Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

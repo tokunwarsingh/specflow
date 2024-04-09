@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Youtube\\BDD\\Installaion\\SpecFlowProject3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59979BA5-A785-43D0-8E79-D077F6F170F4}|SpecFlowProject3.csproj|d:\\youtube\\bdd\\installaion\\specflowproject3\\testdatagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59979BA5-A785-43D0-8E79-D077F6F170F4}|SpecFlowProject3.csproj|solutionrelative:testdatagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59979BA5-A785-43D0-8E79-D077F6F170F4}|SpecFlowProject3.csproj|d:\\youtube\\bdd\\installaion\\specflowproject3\\stepdefinitions\\userregistrationstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59979BA5-A785-43D0-8E79-D077F6F170F4}|SpecFlowProject3.csproj|solutionrelative:stepdefinitions\\userregistrationstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59979BA5-A785-43D0-8E79-D077F6F170F4}|SpecFlowProject3.csproj|d:\\youtube\\bdd\\installaion\\specflowproject3\\registrationtestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59979BA5-A785-43D0-8E79-D077F6F170F4}|SpecFlowProject3.csproj|solutionrelative:registrationtestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59979BA5-A785-43D0-8E79-D077F6F170F4}|SpecFlowProject3.csproj|d:\\youtube\\bdd\\installaion\\specflowproject3\\pageobject\\regstrationpageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59979BA5-A785-43D0-8E79-D077F6F170F4}|SpecFlowProject3.csproj|solutionrelative:pageobject\\regstrationpageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59979BA5-A785-43D0-8E79-D077F6F170F4}|SpecFlowProject3.csproj|d:\\youtube\\bdd\\installaion\\specflowproject3\\features\\user registration.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{59979BA5-A785-43D0-8E79-D077F6F170F4}|SpecFlowProject3.csproj|solutionrelative:features\\user registration.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRegistrationStepDefinitions.cs",
+              "DocumentMoniker": "D:\\Youtube\\BDD\\Installaion\\SpecFlowProject3\\StepDefinitions\\UserRegistrationStepDefinitions.cs",
+              "RelativeDocumentMoniker": "StepDefinitions\\UserRegistrationStepDefinitions.cs",
+              "ToolTip": "D:\\Youtube\\BDD\\Installaion\\SpecFlowProject3\\StepDefinitions\\UserRegistrationStepDefinitions.cs",
+              "RelativeToolTip": "StepDefinitions\\UserRegistrationStepDefinitions.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAwwDoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T18:03:09.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestDataGenerator.cs",
+              "DocumentMoniker": "D:\\Youtube\\BDD\\Installaion\\SpecFlowProject3\\TestDataGenerator.cs",
+              "RelativeDocumentMoniker": "TestDataGenerator.cs",
+              "ToolTip": "D:\\Youtube\\BDD\\Installaion\\SpecFlowProject3\\TestDataGenerator.cs",
+              "RelativeToolTip": "TestDataGenerator.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T18:07:08.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrationTestData.cs",
+              "DocumentMoniker": "D:\\Youtube\\BDD\\Installaion\\SpecFlowProject3\\RegistrationTestData.cs",
+              "RelativeDocumentMoniker": "RegistrationTestData.cs",
+              "ToolTip": "D:\\Youtube\\BDD\\Installaion\\SpecFlowProject3\\RegistrationTestData.cs",
+              "RelativeToolTip": "RegistrationTestData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T18:11:15.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegstrationPageObject.cs",
+              "DocumentMoniker": "D:\\Youtube\\BDD\\Installaion\\SpecFlowProject3\\PageObject\\RegstrationPageObject.cs",
+              "RelativeDocumentMoniker": "PageObject\\RegstrationPageObject.cs",
+              "ToolTip": "D:\\Youtube\\BDD\\Installaion\\SpecFlowProject3\\PageObject\\RegstrationPageObject.cs",
+              "RelativeToolTip": "PageObject\\RegstrationPageObject.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T17:58:13.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User Registration.feature",
+              "DocumentMoniker": "D:\\Youtube\\BDD\\Installaion\\SpecFlowProject3\\Features\\User Registration.feature",
+              "RelativeDocumentMoniker": "Features\\User Registration.feature",
+              "ToolTip": "D:\\Youtube\\BDD\\Installaion\\SpecFlowProject3\\Features\\User Registration.feature",
+              "RelativeToolTip": "Features\\User Registration.feature",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-04-08T17:18:39.677Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
